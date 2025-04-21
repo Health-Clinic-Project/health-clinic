@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\project\\Bl\\Bl.csproj": {}
+    "H:\\‏‏תיקיה חדשה\\health-clinic\\Bl\\Bl.csproj": {}
   },
   "projects": {
-    "H:\\project\\Bl\\Bl.csproj": {
+    "H:\\‏‏תיקיה חדשה\\health-clinic\\Bl\\Bl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\project\\Bl\\Bl.csproj",
+        "projectUniqueName": "H:\\‏‏תיקיה חדשה\\health-clinic\\Bl\\Bl.csproj",
         "projectName": "Bl",
-        "projectPath": "H:\\project\\Bl\\Bl.csproj",
-        "packagesPath": "C:\\Users\\לוסטיג מוריה\\.nuget\\packages\\",
-        "outputPath": "H:\\project\\Bl\\obj\\",
+        "projectPath": "H:\\‏‏תיקיה חדשה\\health-clinic\\Bl\\Bl.csproj",
+        "packagesPath": "C:\\Users\\עוזר הדסה אדל\\.nuget\\packages\\",
+        "outputPath": "H:\\‏‏תיקיה חדשה\\health-clinic\\Bl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\לוסטיג מוריה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\עוזר הדסה אדל\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
