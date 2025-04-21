@@ -1,0 +1,14 @@
+H:\project\Dal\bin\Debug\net8.0\Dal.deps.json
+H:\project\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+H:\project\Dal\bin\Debug\net8.0\Dal.dll
+H:\project\Dal\bin\Debug\net8.0\Dal.pdb
+H:\project\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+H:\project\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\project\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+H:\project\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+H:\project\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+H:\project\Dal\obj\Debug\net8.0\Dal.dll
+H:\project\Dal\obj\Debug\net8.0\refint\Dal.dll
+H:\project\Dal\obj\Debug\net8.0\Dal.pdb
+H:\project\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+H:\project\Dal\obj\Debug\net8.0\ref\Dal.dll

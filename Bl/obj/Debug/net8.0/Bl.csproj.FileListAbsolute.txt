@@ -1,0 +1,11 @@
+H:\project\Bl\bin\Debug\net8.0\Bl.deps.json
+H:\project\Bl\bin\Debug\net8.0\Bl.dll
+H:\project\Bl\bin\Debug\net8.0\Bl.pdb
+H:\project\Bl\obj\Debug\net8.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+H:\project\Bl\obj\Debug\net8.0\Bl.AssemblyInfoInputs.cache
+H:\project\Bl\obj\Debug\net8.0\Bl.AssemblyInfo.cs
+H:\project\Bl\obj\Debug\net8.0\Bl.csproj.CoreCompileInputs.cache
+H:\project\Bl\obj\Debug\net8.0\Bl.dll
+H:\project\Bl\obj\Debug\net8.0\refint\Bl.dll
+H:\project\Bl\obj\Debug\net8.0\Bl.pdb
+H:\project\Bl\obj\Debug\net8.0\ref\Bl.dll
