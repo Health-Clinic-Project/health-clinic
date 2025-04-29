@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Dal.models;
+namespace Webapi.models;
 
 public partial class Patient
 {
-    public int Id { get; set; }
+    public string Id { get; set; } = null!;
 
     public string FirstName { get; set; } = null!;
 
@@ -15,9 +15,11 @@ public partial class Patient
 
     public int Age { get; set; }
 
-    public int Weight { get; set; }
+    public int? Weight { get; set; }
 
-    public int MedicalBag { get; set; }
+    public virtual ICollection<AvailableAppointment> AvailableAppointments { get; set; } = new List<AvailableAppointment>();
 
-    public virtual Meeting MedicalBagNavigation { get; set; } = null!;
+    public virtual ICollection<NotAvailableAppointment> NotAvailableAppointments { get; set; } = new List<NotAvailableAppointment>();
+
+    public virtual ICollection<PassedAppointment> PassedAppointments { get; set; } = new List<PassedAppointment>();
 }
