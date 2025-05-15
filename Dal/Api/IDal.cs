@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Dal.Api
 {
-    internal interface IDal
+    public interface IDal
     {
+        public IDoctorDal DoctorDal { get; }
+        public IPatientDal PatientDal { get; }
+        public IAvailableAppointmentDal AvailableAppointmentDal { get; }
+        public INotAvailableAppointmentDal NotAvailableAppointmentDal { get; }
+        public IPassedAppointmentDal PassedAppointmentDal { get; }
     }
 }

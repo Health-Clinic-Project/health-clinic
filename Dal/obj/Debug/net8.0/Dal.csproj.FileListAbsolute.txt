@@ -12,3 +12,21 @@ H:\project\Dal\obj\Debug\net8.0\refint\Dal.dll
 H:\project\Dal\obj\Debug\net8.0\Dal.pdb
 H:\project\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
 H:\project\Dal\obj\Debug\net8.0\ref\Dal.dll
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\Dal.sourcelink.json
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\Dal.dll
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\refint\Dal.dll
+H:\‏‏תיקיה חדשה\health-clinic\Dal\obj\Debug\net8.0\Dal.pdb
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.sourcelink.json
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.dll
+H:\health-clinic\Dal\obj\Debug\net8.0\refint\Dal.dll
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.pdb

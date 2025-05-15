@@ -1,4 +1,5 @@
 ﻿using Dal.Api;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,18 +17,38 @@ namespace Dal.Services
             _dbManager = dbManager;
         }
 
-        public List<Doctor> GetAllDoctors()
+        public async Task Add(Doctor doctor)
         {
-            return _dbManager.Doctors.ToList();
+            await _dbManager.Doctors.AddAsync(doctor);
+            await _dbManager.SaveChangesAsync();
         }
-        public Doctor GetDoctorBySpecialization(string doctorSpecialization)
+
+        public async Task Delete(Doctor doctor)
         {
-            var doctor = _dbManager.Doctors.FirstOrDefault(t => t.Specialization == doctorSpecialization);
+            _dbManager.Doctors.Remove(doctor);
+            await _dbManager.SaveChangesAsync();
+        }
+
+        public async Task<List<Doctor>> GetAll()
+        {
+            return await _dbManager.Doctors.ToListAsync();
+        }
+       
+        public async Task<Doctor> GetDoctorBySpecialization(string doctorSpecialization)
+        {
+            var doctor = await _dbManager.Doctors.FirstOrDefaultAsync(t => t.Specialization == doctorSpecialization);
+            await _dbManager.SaveChangesAsync();
             if (doctor != null)
             {
                 return doctor;
             }
             else throw new NullReferenceException();
+        }
+
+        public async Task Update(Doctor doctor)
+        {
+            _dbManager.Doctors.Update(doctor);
+            await _dbManager.SaveChangesAsync();
         }
     }
 }

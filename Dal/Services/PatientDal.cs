@@ -1,4 +1,5 @@
 ﻿using Dal.Api;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,29 +12,33 @@ namespace Dal.Services
     internal class PatientDal : IPatientDal
     {
         private readonly DB_Manager _dbManager;
+
         public PatientDal(DB_Manager dbManager)
         {
             _dbManager = dbManager;
         }
 
-        public void Add(Patient patient)
+        public async Task Add(Patient patient)
         {
-            _dbManager.Patients.Add(patient);
+            await _dbManager.Patients.AddAsync(patient);
+            await _dbManager.SaveChangesAsync();
         }
 
-        public void Delete(Patient patient)
+        public async Task Delete(Patient patient)
         {
             _dbManager.Patients.Remove(patient);
+            await _dbManager.SaveChangesAsync();
         }
 
-        public List<Patient> GetAll()
+        public async Task<List<Patient>> GetAll()
         {
-            return _dbManager.Patients.ToList();
+            return await _dbManager.Patients.ToListAsync();
         }
 
-        public Patient GetClassId(string patientId)
+        public async Task<Patient> GetClassId(string patientId)
         {
-            var patient = _dbManager.Patients.FirstOrDefault(t => t.Id == patientId);
+            var patient = await _dbManager.Patients.FirstOrDefaultAsync(t => t.Id == patientId);
+            await _dbManager.SaveChangesAsync();
             if (patient != null)
             {
                 return patient;
@@ -41,9 +46,10 @@ namespace Dal.Services
             else throw new NullReferenceException();
         }
 
-        public void Update(Patient patient)
+        public async Task Update(Patient entity)
         {
-            _dbManager.Patients.Update(patient);
+            _dbManager.Patients.Update(entity);
+            await _dbManager.SaveChangesAsync();
         }
     }
 }

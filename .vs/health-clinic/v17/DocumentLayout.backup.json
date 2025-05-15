@@ -1,10 +1,146 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\computer\\full-stack project\\health-clinic\\",
+  "WorkspaceRootPath": "H:\\health-clinic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|c:\\users\\user\\desktop\\computer\\full-stack project\\health-clinic\\dal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\services\\appointmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\services\\appointmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\services\\availableappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\services\\availableappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\api\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\api\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\api\\iavailableappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\api\\iavailableappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\models\\notavailableappointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\models\\notavailableappointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\models\\appointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\models\\appointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\api\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\services\\notavailableappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\services\\notavailableappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\models\\notavailableappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\models\\notavailableappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\models\\passedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\models\\passedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\api\\ipatientdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\api\\ipatientdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\api\\idoctordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idoctordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\models\\workhour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\models\\workhour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\models\\availableappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\models\\availableappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\models\\basicappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\models\\basicappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\models\\availableappointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\models\\availableappointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\api\\ipassedappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\api\\ipassedappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\api\\inotavailableappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\api\\inotavailableappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\services\\passedappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\services\\passedappointmentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\services\\doctordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\services\\doctordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\models\\patientbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\models\\patientbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\models\\passedappointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\models\\passedappointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\models\\doctorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\models\\doctorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0E883A-76B7-4426-8CD1-C56B4A1A462A}|Webapi\\Webapi.csproj|h:\\health-clinic\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0E883A-76B7-4426-8CD1-C56B4A1A462A}|Webapi\\Webapi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\services\\patientdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\services\\patientdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\models\\blstartworkhour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\models\\blstartworkhour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|h:\\health-clinic\\bl\\api\\iblmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2A7C15-D330-4510-B462-5D363E5C88B4}|Bl\\Bl.csproj|solutionrelative:bl\\api\\iblmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|h:\\health-clinic\\dal\\models\\db_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41CDB3FF-4B95-451A-B4D0-C02BF6C9020A}|Dal\\Dal.csproj|solutionrelative:dal\\models\\db_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0E883A-76B7-4426-8CD1-C56B4A1A462A}|Webapi\\Webapi.csproj|h:\\health-clinic\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE0E883A-76B7-4426-8CD1-C56B4A1A462A}|Webapi\\Webapi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +155,451 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DalManager.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\DalManager.cs",
+              "RelativeDocumentMoniker": "Dal\\DalManager.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\DalManager.cs",
+              "RelativeToolTip": "Dal\\DalManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:43:35.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentManager.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Services\\AppointmentManager.cs",
+              "RelativeDocumentMoniker": "Bl\\Services\\AppointmentManager.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Services\\AppointmentManager.cs",
+              "RelativeToolTip": "Bl\\Services\\AppointmentManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwDwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:31:02.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Api\\IDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\IDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Api\\IDal.cs",
+              "RelativeToolTip": "Dal\\Api\\IDal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:43:55.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AvailableAppointmentDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Services\\AvailableAppointmentDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\AvailableAppointmentDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Services\\AvailableAppointmentDal.cs",
+              "RelativeToolTip": "Dal\\Services\\AvailableAppointmentDal.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:44:28.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICRUD.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Api\\ICRUD.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\ICRUD.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Api\\ICRUD.cs",
+              "RelativeToolTip": "Dal\\Api\\ICRUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:44:21.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAvailableAppointmentDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Api\\IAvailableAppointmentDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\IAvailableAppointmentDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Api\\IAvailableAppointmentDal.cs",
+              "RelativeToolTip": "Dal\\Api\\IAvailableAppointmentDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:51:09.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppointmentBl.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Models\\AppointmentBl.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\AppointmentBl.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Models\\AppointmentBl.cs",
+              "RelativeToolTip": "Bl\\Models\\AppointmentBl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:24:33.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotAvailableAppointmentBl.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Models\\NotAvailableAppointmentBl.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\NotAvailableAppointmentBl.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Models\\NotAvailableAppointmentBl.cs",
+              "RelativeToolTip": "Bl\\Models\\NotAvailableAppointmentBl.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:15:06.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Bl\\MappingProfile.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\MappingProfile.cs",
+              "RelativeToolTip": "Bl\\MappingProfile.cs",
+              "ViewState": "AgIAAAQAAACgzMxjMVUQwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:56:35.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotAvailableAppointmentDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Services\\NotAvailableAppointmentDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\NotAvailableAppointmentDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Services\\NotAvailableAppointmentDal.cs",
+              "RelativeToolTip": "Dal\\Services\\NotAvailableAppointmentDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:43:22.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\Doctor.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Models\\Doctor.cs",
+              "RelativeToolTip": "Dal\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:37:54.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotAvailableAppointment.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Models\\NotAvailableAppointment.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\NotAvailableAppointment.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Models\\NotAvailableAppointment.cs",
+              "RelativeToolTip": "Dal\\Models\\NotAvailableAppointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:27:34.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PassedAppointment.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Models\\PassedAppointment.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\PassedAppointment.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Models\\PassedAppointment.cs",
+              "RelativeToolTip": "Dal\\Models\\PassedAppointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:17:13.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPatientDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Api\\IPatientDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\IPatientDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Api\\IPatientDal.cs",
+              "RelativeToolTip": "Dal\\Api\\IPatientDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:44:23.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IDoctorDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Api\\IDoctorDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\IDoctorDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Api\\IDoctorDal.cs",
+              "RelativeToolTip": "Dal\\Api\\IDoctorDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:45:02.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\computer\\full-stack project\\health-clinic\\Dal\\Models\\Patient.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "Dal\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\computer\\full-stack project\\health-clinic\\Dal\\Models\\Patient.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Models\\Patient.cs",
               "RelativeToolTip": "Dal\\Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T12:05:40.499Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WorkHour.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Models\\WorkHour.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\WorkHour.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Models\\WorkHour.cs",
+              "RelativeToolTip": "Dal\\Models\\WorkHour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:17:04.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AvailableAppointment.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Models\\AvailableAppointment.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\AvailableAppointment.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Models\\AvailableAppointment.cs",
+              "RelativeToolTip": "Dal\\Models\\AvailableAppointment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:27:36.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BasicAppointment.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Models\\BasicAppointment.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\BasicAppointment.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Models\\BasicAppointment.cs",
+              "RelativeToolTip": "Dal\\Models\\BasicAppointment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:07:00.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AvailableAppointmentBl.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Models\\AvailableAppointmentBl.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\AvailableAppointmentBl.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Models\\AvailableAppointmentBl.cs",
+              "RelativeToolTip": "Bl\\Models\\AvailableAppointmentBl.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:28:28.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPassedAppointmentDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Api\\IPassedAppointmentDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\IPassedAppointmentDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Api\\IPassedAppointmentDal.cs",
+              "RelativeToolTip": "Dal\\Api\\IPassedAppointmentDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:01:01.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "INotAvailableAppointmentDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Api\\INotAvailableAppointmentDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Api\\INotAvailableAppointmentDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Api\\INotAvailableAppointmentDal.cs",
+              "RelativeToolTip": "Dal\\Api\\INotAvailableAppointmentDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:52:34.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BlManager.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\BlManager.cs",
+              "RelativeDocumentMoniker": "Bl\\BlManager.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\BlManager.cs",
+              "RelativeToolTip": "Bl\\BlManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:39:42.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PassedAppointmentDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Services\\PassedAppointmentDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\PassedAppointmentDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Services\\PassedAppointmentDal.cs",
+              "RelativeToolTip": "Dal\\Services\\PassedAppointmentDal.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:55:58.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DoctorDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Services\\DoctorDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\DoctorDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Services\\DoctorDal.cs",
+              "RelativeToolTip": "Dal\\Services\\DoctorDal.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:44:29.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PatientBl.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Models\\PatientBl.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\PatientBl.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Models\\PatientBl.cs",
+              "RelativeToolTip": "Bl\\Models\\PatientBl.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:24:42.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PassedAppointmentBl.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Models\\PassedAppointmentBl.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\PassedAppointmentBl.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Models\\PassedAppointmentBl.cs",
+              "RelativeToolTip": "Bl\\Models\\PassedAppointmentBl.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:15:43.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DoctorBl.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Models\\DoctorBl.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\DoctorBl.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Models\\DoctorBl.cs",
+              "RelativeToolTip": "Bl\\Models\\DoctorBl.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:24:55.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Webapi\\Program.cs",
+              "RelativeDocumentMoniker": "Webapi\\Program.cs",
+              "ToolTip": "H:\\health-clinic\\Webapi\\Program.cs",
+              "RelativeToolTip": "Webapi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:59:40.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Bl.csproj",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Bl.csproj",
+              "RelativeDocumentMoniker": "Bl\\Bl.csproj",
+              "ToolTip": "H:\\health-clinic\\Bl\\Bl.csproj",
+              "RelativeToolTip": "Bl\\Bl.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T13:56:22.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PatientDal.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Services\\PatientDal.cs",
+              "RelativeDocumentMoniker": "Dal\\Services\\PatientDal.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Services\\PatientDal.cs",
+              "RelativeToolTip": "Dal\\Services\\PatientDal.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:44:32.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BlStartWorkHour.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Models\\BlStartWorkHour.cs",
+              "RelativeDocumentMoniker": "Bl\\Models\\BlStartWorkHour.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Models\\BlStartWorkHour.cs",
+              "RelativeToolTip": "Bl\\Models\\BlStartWorkHour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:24:44.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IBlManager.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Bl\\Api\\IBlManager.cs",
+              "RelativeDocumentMoniker": "Bl\\Api\\IBlManager.cs",
+              "ToolTip": "H:\\health-clinic\\Bl\\Api\\IBlManager.cs",
+              "RelativeToolTip": "Bl\\Api\\IBlManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:50:06.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DB_Manager.cs",
+              "DocumentMoniker": "H:\\health-clinic\\Dal\\Models\\DB_Manager.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\DB_Manager.cs",
+              "ToolTip": "H:\\health-clinic\\Dal\\Models\\DB_Manager.cs",
+              "RelativeToolTip": "Dal\\Models\\DB_Manager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:35:08.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Webapi.csproj",
+              "DocumentMoniker": "H:\\health-clinic\\Webapi\\Webapi.csproj",
+              "RelativeDocumentMoniker": "Webapi\\Webapi.csproj",
+              "ToolTip": "H:\\health-clinic\\Webapi\\Webapi.csproj",
+              "RelativeToolTip": "Webapi\\Webapi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-06T12:43:35.07Z"
             }
           ]
         }

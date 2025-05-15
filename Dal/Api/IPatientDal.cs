@@ -2,9 +2,8 @@
 
 namespace Dal.Api
 {
-    internal interface IPatientDal: ICRUD<Patient>
+    public interface IPatientDal: ICRUD<Patient>
     {
-        List<Patient> GetAllPatients();
-        Patient GetClassId(string patientId);
+        Task<Patient> GetClassId(string patientId);
     }
 }

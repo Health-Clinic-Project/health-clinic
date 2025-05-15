@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Dal.Api
 {
-    internal interface ICRUD<T>
+    public interface ICRUD<T>
     {
-        public void Add(T entity);
-        public void Update(T entity);
-        public void Delete(T entity);
-        public List<T> GetAll();
+        public Task Add(T entity);
+        public Task Update(T entity);
+        public Task Delete(T entity);
+        public Task<List<T>> GetAll();
+       
     }
 }

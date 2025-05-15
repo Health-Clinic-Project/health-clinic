@@ -2,8 +2,8 @@
 
 namespace Dal.Api
 {
-    internal interface IDoctorDal: ICRUD<Doctor>
+    public interface IDoctorDal: ICRUD<Doctor>
     {
-        Doctor GetDoctorBySpecialization(string doctorSpecialization);
+        Task<Doctor> GetDoctorBySpecialization(string doctorSpecialization);
     }
 }
