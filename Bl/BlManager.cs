@@ -12,7 +12,7 @@ namespace Bl
         public BlManager(IDal dal)
         {
 
-            builder.Services.AddAutoMapper(typeof(MappingProfile));
+            //builder.Services.AddAutoMapper(typeof(MappingProfile));
 
         }
     }

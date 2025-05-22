@@ -29,12 +29,26 @@ namespace Dal.Services
             _dbManager.Patients.Remove(patient);
             await _dbManager.SaveChangesAsync();
         }
+        public async Task DeleteByIdAndPhoneNumber(string id,string phone)
+        {
+            Patient patient = GetById(id).Result;
+            if (patient != null)
+            {
+                Delete(patient);
+            }
+            else { 
+                throw new Exception(); 
+            }
+        }
 
         public async Task<List<Patient>> GetAll()
         {
             return await _dbManager.Patients.ToListAsync();
         }
-
+        public async Task<Patient> GetById(string id)
+        {
+            return await _dbManager.Patients.FirstOrDefaultAsync(p=>p.Id.Equals(id));
+        }
         public async Task<Patient> GetClassId(string patientId)
         {
             var patient = await _dbManager.Patients.FirstOrDefaultAsync(t => t.Id == patientId);
@@ -51,5 +65,16 @@ namespace Dal.Services
             _dbManager.Patients.Update(entity);
             await _dbManager.SaveChangesAsync();
         }
+        public bool Exists(string patientId)
+        {
+            if(GetById(patientId).Result!=null)
+                return true;
+            else return false;
+        }
+
+        //public async Task<List<Patient>> GetByIds(List<String> patientIds)
+        //{
+        //    return await _dbManager.Patients.Where(p => patientIds.Contains(p.Id)).ToListAsync();
+        //}
     }
 }

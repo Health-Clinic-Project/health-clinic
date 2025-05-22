@@ -31,9 +31,9 @@ namespace Dal.Services
         public async Task CancleByIdAndDate(string id, DateTime date)
         {
             var app = await _dbManager.AvailableAppointments.FirstOrDefaultAsync(a => a.Id.Equals(id) && a.Date.Equals(date));
-            if (app == null)
+            if (app != null)
             {
-               Delete(app);
+                Delete(app);
             }
             else throw new Exception();
         }
@@ -59,6 +59,15 @@ namespace Dal.Services
             await _dbManager.SaveChangesAsync();
         }
 
-
+        public Task<AvailableAppointment> GetByIdAndDate(string id, DateTime date)
+        {
+            throw new NotImplementedException();
+        }
+        public async Task<List<AvailableAppointment>> GetAppointmentsByDate(DateTime date)
+        {
+            return await _dbManager.AvailableAppointments.Where
+                (a => a.Date == date)
+                .ToListAsync();
+        }
     }
 }

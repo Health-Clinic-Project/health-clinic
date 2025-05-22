@@ -52,5 +52,11 @@ namespace Dal.Services
             _dbManager.NotAvailableAppointments.Update(notAvailableAppointment);
             await _dbManager.SaveChangesAsync();
         }
+        public async Task<List<NotAvailableAppointment>> GetAppointmentsByDate(DateTime date)
+        {
+            return await _dbManager.NotAvailableAppointments.Where
+                (a => a.Date == date)
+                .ToListAsync();
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace Dal.Api
 {
     public interface INotAvailableAppointmentDal:ICRUD<NotAvailableAppointment>
     {
+        public Task<List<NotAvailableAppointment>> GetAppointmentsByDate(DateTime date);
 
     }
 }

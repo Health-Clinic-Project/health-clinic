@@ -15,6 +15,7 @@ public class MappingProfile : Profile
         CreateMap<AvailableAppointmentBl, AvailableAppointment>().ReverseMap();
         CreateMap<NotAvailableAppointmentBl, NotAvailableAppointment>().ReverseMap();
         CreateMap<PassedAppointmentBl, PassedAppointment>().ReverseMap();
+        CreateMap<PatientBl, Patient>().ReverseMap();
     }
 }
 

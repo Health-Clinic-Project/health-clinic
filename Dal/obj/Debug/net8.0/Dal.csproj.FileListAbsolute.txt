@@ -30,3 +30,9 @@ H:\health-clinic\Dal\obj\Debug\net8.0\Dal.sourcelink.json
 H:\health-clinic\Dal\obj\Debug\net8.0\Dal.dll
 H:\health-clinic\Dal\obj\Debug\net8.0\refint\Dal.dll
 H:\health-clinic\Dal\obj\Debug\net8.0\Dal.pdb
+H:\health-clinic\Dal\bin\Debug\net8.0\Dal.deps.json
+H:\health-clinic\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+H:\health-clinic\Dal\bin\Debug\net8.0\Dal.dll
+H:\health-clinic\Dal\bin\Debug\net8.0\Dal.pdb
+H:\health-clinic\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+H:\health-clinic\Dal\obj\Debug\net8.0\ref\Dal.dll

@@ -11,6 +11,9 @@ namespace Dal.Api
     {
         public Task<List<AvailableAppointment>> GetAllAvailableAppointment();
         public Task<List<AvailableAppointment>> GetAllAvailableAppointmentsOfSpecialization(string specialty);
-        public Task<List<AvailableAppointment>> GetByIdAndDate();
+        public Task<AvailableAppointment> GetByIdAndDate(string id, DateTime date);
+        public Task CancleByIdAndDate(string id, DateTime date);
+
     }
+
 }
