@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Bl.Models;
+using Bl.Api;
 using Dal.Api;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using Webapi.models;
 
 namespace Bl.Services
 {
-    internal class PatientManager
+    internal class PatientManager : IPatientManager
     {
         private readonly IPatientDal patientDal;
         private readonly INotAvailableAppointmentDal notAvailableAppointment;
@@ -26,7 +26,7 @@ namespace Bl.Services
         {
             if (patientBl == null)
                 throw new ArgumentNullException(nameof(patientBl));
-            
+
             if (patientDal.Exists(patientBl.Id))
                 throw new InvalidOperationException("Patient with this ID already exists.");
 
@@ -37,18 +37,19 @@ namespace Bl.Services
         public void RemovePatient(string id, string phoneNumber)
         {
 
-            patientDal.DeleteByIdAndPhoneNumber(id,phoneNumber);
+            patientDal.DeleteByIdAndPhoneNumber(id, phoneNumber);
         }
 
         public PatientBl GetPatient(string id)
         {
             return mapper.Map<PatientBl>(patientDal.GetById(id));
         }
-        public List<PatientBl> GetPatients()
+        public string GetPatients()
         {
             var patientsList = patientDal.GetAll();
 
-            return mapper.Map<List<PatientBl>>(patientsList);
+            //return mapper.Map<List<PatientBl>>(patientsList);
+            return "Hello";
         }
         public void UpdatePatient(PatientBl patientBl)
         {
@@ -69,7 +70,7 @@ namespace Bl.Services
 
             return mapper.Map<List<PatientBl>>(patients);
         }
-        public List<PatientBl> GetPatientsByDoctorId(DateTime date,string doctorId)
+        public List<PatientBl> GetPatientsByDoctorId(DateTime date, string doctorId)
         {
             List<NotAvailableAppointment> appointments = notAvailableAppointment.GetAppointmentsByDate(date).Result;
             List<NotAvailableAppointment> appointments1 = appointments.Where(a => a.DoctorId == doctorId).Distinct().ToList();
