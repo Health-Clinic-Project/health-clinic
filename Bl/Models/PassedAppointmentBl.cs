@@ -16,7 +16,4 @@ public partial class PassedAppointmentBl
 
     public bool DidThePatientArrive { get; set; }
 
-    public virtual DoctorBl Doctor { get; set; } = null!;
-
-    public virtual PatientBl Patient { get; set; } = null!;
 }

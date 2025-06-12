@@ -50,5 +50,17 @@ namespace Dal.Services
             _dbManager.Doctors.Update(doctor);
             await _dbManager.SaveChangesAsync();
         }
+        public bool Exists(string doctorId)
+        {
+            if (GetById(doctorId).Result != null)
+                return true;
+            else return false;
+        }
+        public async Task<Doctor> GetById(string id)
+        {
+            return await _dbManager.Doctors.FirstOrDefaultAsync(p => p.Id.Equals(id));
+        }
+
+        
     }
 }

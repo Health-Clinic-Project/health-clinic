@@ -6,8 +6,8 @@ namespace Bl.Api
     {
         void AddPatient(PatientBl patientBl);
         PatientBl GetPatient(string id);
-        //List<PatientBl> GetPatients();
-        string GetPatients();
+        List<PatientBl> GetPatients();
+        //string GetPatients();
 
         List<PatientBl> GetPatientsAppointmentByDate(DateTime date);
         List<PatientBl> GetPatientsByDoctorId(DateTime date, string doctorId);

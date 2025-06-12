@@ -44,12 +44,11 @@ namespace Bl.Services
         {
             return mapper.Map<PatientBl>(patientDal.GetById(id));
         }
-        public string GetPatients()
+        public List<PatientBl> GetPatients()
         {
-            var patientsList = patientDal.GetAll();
+            var patientsList = patientDal.GetAll().Result ;
 
-            //return mapper.Map<List<PatientBl>>(patientsList);
-            return "Hello";
+            return mapper.Map<List<PatientBl>>(patientsList);
         }
         public void UpdatePatient(PatientBl patientBl)
         {

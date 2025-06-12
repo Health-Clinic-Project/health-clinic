@@ -6,10 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Webapi.models;
 
 namespace Dal
 {
-    internal class DalManager:IDal
+    public class DalManager:IDal
     {
 
         public IDoctorDal DoctorDal { get; }
@@ -21,6 +22,8 @@ namespace Dal
         public DalManager()
         {
             ServiceCollection services = new ServiceCollection();
+
+            services.AddSingleton<DB_Manager>();
             services.AddSingleton<IDoctorDal, DoctorDal>();
             services.AddSingleton<IPatientDal, PatientDal>();
             services.AddSingleton<IAvailableAppointmentDal, AvailableAppointmentDal>();

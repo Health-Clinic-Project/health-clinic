@@ -11,7 +11,4 @@ public partial class AvailableAppointmentBl
 
     public string PatientId { get; set; } = null!;
 
-    public virtual DoctorBl Doctor { get; set; } = null!;
-
-    public virtual PatientBl Patient { get; set; } = null!;
 }

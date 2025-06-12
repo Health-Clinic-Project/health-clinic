@@ -37,6 +37,16 @@ namespace Bl.Services
 
             return notAvailableAppointment;
         }
+        public NotAvailableAppointmentBl MakeAnAppointment(AvailableAppointmentBl availableAppointmentBl)
+        {
+            var availableAppointment = mapper.Map<AvailableAppointment>(availableAppointmentBl);
+            var notAvailableAppointment = CastingavailableTOnotavailable(availableAppointment);
+            notAvailableAppointmentdal.Add(notAvailableAppointment);
+            availableAppointmentdal.Delete(availableAppointment);
+            return mapper.Map<NotAvailableAppointmentBl>(notAvailableAppointment);
+
+        }
+       
         public AvailableAppointment CastingnotavailableTOavailable(NotAvailableAppointment notAvailableAppointment)
         {
             var availableAppointment = new AvailableAppointment()
@@ -49,15 +59,7 @@ namespace Bl.Services
 
             return availableAppointment;
         }
-        public NotAvailableAppointmentBl MakeAnAppointment(AvailableAppointmentBl availableAppointmentBl)
-        {
-            var availableAppointment = mapper.Map<AvailableAppointment>(availableAppointmentBl);
-            var notAvailableAppointment = CastingavailableTOnotavailable(availableAppointment);
-            notAvailableAppointmentdal.Add(notAvailableAppointment);
-            availableAppointmentdal.Delete(availableAppointment);
-            return mapper.Map<NotAvailableAppointmentBl>(notAvailableAppointment);
-            
-        }
+
         public AvailableAppointment CancleAnAppointment(NotAvailableAppointmentBl notAvailableAppointmentBl)
         {
             var notAvailableAppointment = mapper.Map<NotAvailableAppointment>(notAvailableAppointmentBl);
@@ -79,5 +81,9 @@ namespace Bl.Services
             return CastingavailableTOnotavailable(availableAppointment);
         }
 
+
+
     }
 }
+
+

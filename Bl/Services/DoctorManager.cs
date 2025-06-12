@@ -34,7 +34,7 @@ namespace Bl.Services
         public void RemoveDoctor(string id, string phoneNumber)
         {
 
-            doctorDal.DeleteByIdAndPhoneNumber(id, phoneNumber);
+             //   doctorDal.DeleteByIdAndPhoneNumber(id, phoneNumber);
         }
 
         public DoctorBl GetDoctor(string id)
@@ -60,3 +60,4 @@ namespace Bl.Services
         }
     }
 }
+

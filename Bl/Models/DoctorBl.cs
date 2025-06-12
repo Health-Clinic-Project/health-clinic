@@ -19,11 +19,11 @@ public partial class DoctorBl
 
     public int LengthOfAppointment { get; set; }
 
-    public virtual ICollection<AvailableAppointmentBl> AvailableAppointments { get; set; } = new List<AvailableAppointmentBl>();
+    //public virtual ICollection<AvailableAppointmentBl> AvailableAppointments { get; set; } = new List<AvailableAppointmentBl>();
 
-    public virtual ICollection<NotAvailableAppointmentBl> NotAvailableAppointments { get; set; } = new List<NotAvailableAppointmentBl>();
+    //public virtual ICollection<NotAvailableAppointmentBl> NotAvailableAppointments { get; set; } = new List<NotAvailableAppointmentBl>();
 
-    public virtual ICollection<PassedAppointmentBl> PassedAppointments { get; set; } = new List<PassedAppointmentBl>();
+    //public virtual ICollection<PassedAppointmentBl> PassedAppointments { get; set; } = new List<PassedAppointmentBl>();
 
     public virtual ICollection<BlStartWorkHour> WorkHours { get; set; } = new List<BlStartWorkHour>();
 }
