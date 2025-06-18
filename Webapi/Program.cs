@@ -1,19 +1,34 @@
-using Bl;
+﻿using Bl;
 using Bl.Api;
 using Dal;
 using Dal.Api;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Swagger / OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
-builder.Services.AddSingleton<IDal,DalManager>();
+
+// שירותי DAL ו-BL
+builder.Services.AddSingleton<IDal, DalManager>();
 builder.Services.AddSingleton<IBlManager, BlManager>();
 
+// הגדרת CORS - מאפשר ל-React לגשת לשרת API
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") // הכתובת שבה רץ ה-React
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -25,6 +40,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// הפעלת CORS עם המדיניות שהגדרת
+app.UseCors("AllowReactApp");
 
 app.UseAuthorization();
 

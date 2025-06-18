@@ -3,7 +3,6 @@ using Dal.Api;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Webapi.models;
 
@@ -20,61 +19,66 @@ namespace Bl.Services
             mapper = _mapper;
         }
 
-        public void Add(AvailableAppointmentBl appointment)
+        public async Task Add(AvailableAppointmentBl appointment)
         {
             if (appointment == null)
                 throw new ArgumentNullException(nameof(appointment));
             if (appointment.Date < DateTime.Now)
                 throw new ArgumentException("Cannot add appointment in the past");
 
-            availableAppointmentDal.Add(mapper.Map<AvailableAppointment>(appointment));
+            await availableAppointmentDal.Add(mapper.Map<AvailableAppointment>(appointment));
         }
 
-        public void Delete(AvailableAppointment appointment)
+        public async Task Delete(AvailableAppointment appointment)
         {
             if (appointment == null)
                 throw new ArgumentNullException(nameof(appointment));
-            availableAppointmentDal.Delete(appointment);
+            await availableAppointmentDal.Delete(appointment);
         }
 
-        public void Update(AvailableAppointment appointment)
+        public async Task Update(AvailableAppointment appointment)
         {
             if (appointment == null)
                 throw new ArgumentNullException(nameof(appointment));
             if (appointment.Date < DateTime.Now)
                 throw new ArgumentException("Cannot update appointment to past date");
 
-            availableAppointmentDal.Update(appointment);
+            await availableAppointmentDal.Update(appointment);
         }
 
-        public List<AvailableAppointment> GetAll()
+        public async Task<List<AvailableAppointment>> GetAll()
         {
-            return availableAppointmentDal.GetAll();
+            return await availableAppointmentDal.GetAll();
         }
 
-        public List<AvailableAppointment> GetAllAvailableAppointments()
+        public async Task<List<AvailableAppointment>> GetAllAvailableAppointments()
         {
-            return availableAppointmentDal.GetAll()
-                .Where(a => a.DateTime > DateTime.Now)
-                .OrderBy(a => a.DateTime)
+            var all = await availableAppointmentDal.GetAll();
+            return all
+                .Where(a => a.Date > DateTime.Now)
+                .OrderBy(a => a.Date)
                 .ToList();
         }
 
-        public List<AvailableAppointment> GetAppointmentsByDate(DateTime date)
+        public async Task<List<AvailableAppointment>> GetAppointmentsByDate(DateTime date)
         {
-            return availableAppointmentDal.GetAll()
-                .Where(a => a.DateTime.Date == date.Date)
-                .OrderBy(a => a.DateTime)
+            var all = await availableAppointmentDal.GetAll();
+            return all
+                .Where(a => a.Date.Date == date.Date)
+                .OrderBy(a => a.Date)
                 .ToList();
         }
 
-        public List<AvailableAppointment> GetAllAvailableAppointmentsOfSpecialization(string specialization)
+        public async Task<List<AvailableAppointment>> GetAllAvailableAppointmentsOfSpecialization(string specialization)
         {
             if (string.IsNullOrWhiteSpace(specialization))
                 throw new ArgumentException("Specialization is required");
 
-            return availableAppointmentDal.GetAll()
-                .Where(a => a.DateTime > DateTime.Now && a.Doctor.Specialization == specialization)
-                .OrderBy(a => a.DateT
+            var all = await availableAppointmentDal.GetAll();
+            return all
+                .Where(a => a.Date > DateTime.Now && a.Doctor.Specialization == specialization)
+                .OrderBy(a => a.Date)
+                .ToList();
         }
+    }
 }
